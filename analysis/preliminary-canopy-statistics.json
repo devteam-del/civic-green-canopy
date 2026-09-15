@@ -1,0 +1,44 @@
+{
+  "status": "preliminary historical canopy proxy, NOT current total green cover",
+  "crs": "EPSG:3826",
+  "resampling": "nearest; 1m target grid, not increased source detail",
+  "source_pixel_mercator_m": 1.1943285669558463,
+  "axis_length_m": 11788.784228527564,
+  "vector_area_m2": 5876785.18828833,
+  "pixel_area_m2": 5876797,
+  "valid_m2": 5876797,
+  "unknown_m2": 0,
+  "source_road_count": 94,
+  "missing_axis_samples": 0,
+  "max_road_intersection_spread_m": 228.3658476397395,
+  "thresholds": {
+    "1": {
+      "definition": "height >= 1 m",
+      "area_m2": 699966,
+      "percent_of_aoi": 11.910671748573245,
+      "percent_of_valid": 11.910671748573245
+    },
+    "2": {
+      "definition": "height >= 2 m",
+      "area_m2": 603435,
+      "percent_of_aoi": 10.26809331681867,
+      "percent_of_valid": 10.26809331681867
+    },
+    "5": {
+      "definition": "height >= 5 m",
+      "area_m2": 417414,
+      "percent_of_aoi": 7.102746615205528,
+      "percent_of_valid": 7.102746615205528
+    }
+  },
+  "imagery_date_intersections": [
+    {
+      "date": "2018-03-23",
+      "intersection_m2": 5638406.669757523
+    },
+    {
+      "date": "2018-08-07",
+      "intersection_m2": 238378.51853083225
+    }
+  ]
+}
