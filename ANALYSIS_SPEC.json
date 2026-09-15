@@ -1,0 +1,22 @@
+{
+  "study": "市民大道全段平面綠覆率",
+  "buffer_each_side_m": 250,
+  "buffer_reference": "road centreline; working interpretation",
+  "area_crs": "EPSG:3826",
+  "metric": "union of plan-view vegetation cover area / study area * 100",
+  "required_layers": [
+    "vegetation or canopy polygons",
+    "parks and green belts as reference only",
+    "plazas and open spaces",
+    "corridor alignment",
+    "water",
+    "elevated infrastructure occlusion",
+    "dated orthophoto"
+  ],
+  "status": "scope specified; boundary and vegetation data not yet verified",
+  "restrictions": [
+    "park boundary is not vegetation cover",
+    "do not double count overlapping canopy and ground cover",
+    "unknown coverage beneath elevated infrastructure is not zero"
+  ]
+}
