@@ -1,0 +1,29 @@
+{
+  "scope": "full Civic Boulevard, both sides 250m; western branches retained separately",
+  "vector_area_m2": 5977775.104896387,
+  "raster_area_m2": 5977767,
+  "model_vegetation_m2": 619410,
+  "model_vegetation_pct_of_total": 10.361896005648932,
+  "unresolved_m2": 914165,
+  "unresolved_pct": 15.292750620758556,
+  "status": "full-corridor remote-sensing screening completed; not complete field verification or definitive total green-cover rate",
+  "epochs": {
+    "ortho": "Taipei 2025 edition, exact exposure date not supplied",
+    "nir": "Sentinel-2 2026-06-03",
+    "height_reference_only": "2018-03-23 and 2018-08-07"
+  },
+  "thresholds": {
+    "vegetation_score_min": 0.65,
+    "nonvegetation_score_max": 0.35,
+    "dark_rgb_max_below": 48,
+    "bridge_screen_buffer_each_side_m": 12
+  },
+  "limitations": [
+    "classifier scores are not calibrated probabilities",
+    "bridge buffer is an occlusion screening approximation, not measured bridge footprint",
+    "1m output grid does not make 10m near-infrared data 1m resolution",
+    "do not treat unresolved cells as zero vegetation",
+    "no legal land-use vegetation exclusion mask used",
+    "not a single-date current census; roofs and ground overlap in plan view are counted once"
+  ]
+}

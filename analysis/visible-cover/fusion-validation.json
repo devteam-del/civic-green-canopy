@@ -1,0 +1,20 @@
+{
+  "method": "leave-one-panel-out; no training pixels from held-out panel",
+  "reference": "visual interpretation of 2025 edition RGB; not field survey",
+  "sample_count": 107,
+  "ambiguous_reference_count": 10,
+  "unweighted_confusion_matrix_rows_reference_0_1": [
+    [
+      78,
+      2
+    ],
+    [
+      5,
+      22
+    ]
+  ],
+  "unweighted_accuracy": 0.9345794392523364,
+  "vegetation_precision": 0.9166666666666666,
+  "vegetation_recall": 0.8148148148148148,
+  "limitation": "stratified small visual reference sample; not an area-weighted independent field accuracy or calibrated uncertainty interval"
+}

@@ -1,0 +1,249 @@
+[
+  {
+    "panel": 1,
+    "bbox_epsg3826": [
+      300000,
+      2770940,
+      301000,
+      2771760
+    ],
+    "study_area_m2": 184484,
+    "model_vegetation_m2": 29175,
+    "model_nonvegetation_m2": 113864,
+    "unresolved_m2": 41445,
+    "physically_or_material_unresolved_m2": 20292,
+    "model_vegetation_pct_of_total": 15.8143795667917,
+    "unresolved_pct": 22.46536284989484,
+    "binary_0_5_vegetation_pct_of_observable": 20.934637497563827,
+    "ortho_visual_review": "completed; full image viewed",
+    "status": "multisource screening; unresolved cells retained"
+  },
+  {
+    "panel": 2,
+    "bbox_epsg3826": [
+      301000,
+      2770950,
+      302000,
+      2771770
+    ],
+    "study_area_m2": 582171,
+    "model_vegetation_m2": 81333,
+    "model_nonvegetation_m2": 405650,
+    "unresolved_m2": 95188,
+    "physically_or_material_unresolved_m2": 61444,
+    "model_vegetation_pct_of_total": 13.970637493107695,
+    "unresolved_pct": 16.35052244100101,
+    "binary_0_5_vegetation_pct_of_observable": 18.2212560516355,
+    "ortho_visual_review": "completed; full image viewed",
+    "status": "multisource screening; unresolved cells retained"
+  },
+  {
+    "panel": 3,
+    "bbox_epsg3826": [
+      302000,
+      2770890,
+      303000,
+      2771570
+    ],
+    "study_area_m2": 508164,
+    "model_vegetation_m2": 45694,
+    "model_nonvegetation_m2": 359886,
+    "unresolved_m2": 102584,
+    "physically_or_material_unresolved_m2": 63086,
+    "model_vegetation_pct_of_total": 8.991978967419968,
+    "unresolved_pct": 20.187183665115988,
+    "binary_0_5_vegetation_pct_of_observable": 13.762980870768718,
+    "ortho_visual_review": "completed; full image viewed",
+    "status": "multisource screening; unresolved cells retained"
+  },
+  {
+    "panel": 4,
+    "bbox_epsg3826": [
+      303000,
+      2770600,
+      304000,
+      2771420
+    ],
+    "study_area_m2": 522368,
+    "model_vegetation_m2": 64910,
+    "model_nonvegetation_m2": 384393,
+    "unresolved_m2": 73065,
+    "physically_or_material_unresolved_m2": 44062,
+    "model_vegetation_pct_of_total": 12.426105733888752,
+    "unresolved_pct": 13.987265682430778,
+    "binary_0_5_vegetation_pct_of_observable": 16.134441131827742,
+    "ortho_visual_review": "completed; full image viewed",
+    "status": "multisource screening; unresolved cells retained"
+  },
+  {
+    "panel": 5,
+    "bbox_epsg3826": [
+      304000,
+      2770570,
+      305000,
+      2771130
+    ],
+    "study_area_m2": 501944,
+    "model_vegetation_m2": 49491,
+    "model_nonvegetation_m2": 366615,
+    "unresolved_m2": 85838,
+    "physically_or_material_unresolved_m2": 55285,
+    "model_vegetation_pct_of_total": 9.85986484548077,
+    "unresolved_pct": 17.101110880895078,
+    "binary_0_5_vegetation_pct_of_observable": 14.018076429670062,
+    "ortho_visual_review": "completed; full image viewed",
+    "status": "multisource screening; unresolved cells retained"
+  },
+  {
+    "panel": 6,
+    "bbox_epsg3826": [
+      305000,
+      2770550,
+      306000,
+      2771140
+    ],
+    "study_area_m2": 503474,
+    "model_vegetation_m2": 31487,
+    "model_nonvegetation_m2": 393275,
+    "unresolved_m2": 78712,
+    "physically_or_material_unresolved_m2": 58513,
+    "model_vegetation_pct_of_total": 6.253947572267883,
+    "unresolved_pct": 15.63377652073394,
+    "binary_0_5_vegetation_pct_of_observable": 8.682109218560727,
+    "ortho_visual_review": "completed; full image viewed",
+    "status": "multisource screening; unresolved cells retained"
+  },
+  {
+    "panel": 7,
+    "bbox_epsg3826": [
+      306000,
+      2770570,
+      307000,
+      2771480
+    ],
+    "study_area_m2": 537133,
+    "model_vegetation_m2": 34203,
+    "model_nonvegetation_m2": 444590,
+    "unresolved_m2": 58340,
+    "physically_or_material_unresolved_m2": 39213,
+    "model_vegetation_pct_of_total": 6.3676966412415545,
+    "unresolved_pct": 10.861369530451489,
+    "binary_0_5_vegetation_pct_of_observable": 8.128414203084834,
+    "ortho_visual_review": "completed; full image viewed",
+    "status": "multisource screening; unresolved cells retained"
+  },
+  {
+    "panel": 8,
+    "bbox_epsg3826": [
+      307000,
+      2770940,
+      308000,
+      2771620
+    ],
+    "study_area_m2": 510401,
+    "model_vegetation_m2": 43902,
+    "model_nonvegetation_m2": 401227,
+    "unresolved_m2": 65272,
+    "physically_or_material_unresolved_m2": 35279,
+    "model_vegetation_pct_of_total": 8.601472175799028,
+    "unresolved_pct": 12.788376198322496,
+    "binary_0_5_vegetation_pct_of_observable": 10.883520443170386,
+    "ortho_visual_review": "completed; full image viewed",
+    "status": "multisource screening; unresolved cells retained"
+  },
+  {
+    "panel": 9,
+    "bbox_epsg3826": [
+      308000,
+      2771100,
+      309000,
+      2771680
+    ],
+    "study_area_m2": 502966,
+    "model_vegetation_m2": 28981,
+    "model_nonvegetation_m2": 420639,
+    "unresolved_m2": 53346,
+    "physically_or_material_unresolved_m2": 20648,
+    "model_vegetation_pct_of_total": 5.762019699144673,
+    "unresolved_pct": 10.606283526123038,
+    "binary_0_5_vegetation_pct_of_observable": 8.2358526946952,
+    "ortho_visual_review": "completed; full image viewed",
+    "status": "multisource screening; unresolved cells retained"
+  },
+  {
+    "panel": 10,
+    "bbox_epsg3826": [
+      309000,
+      2771160,
+      310000,
+      2771850
+    ],
+    "study_area_m2": 507494,
+    "model_vegetation_m2": 33299,
+    "model_nonvegetation_m2": 403210,
+    "unresolved_m2": 70985,
+    "physically_or_material_unresolved_m2": 37169,
+    "model_vegetation_pct_of_total": 6.561456884219321,
+    "unresolved_pct": 13.987357485999835,
+    "binary_0_5_vegetation_pct_of_observable": 10.038377717535747,
+    "ortho_visual_review": "completed; full image viewed",
+    "status": "multisource screening; unresolved cells retained"
+  },
+  {
+    "panel": 11,
+    "bbox_epsg3826": [
+      310000,
+      2771340,
+      311000,
+      2772030
+    ],
+    "study_area_m2": 507645,
+    "model_vegetation_m2": 82097,
+    "model_nonvegetation_m2": 352681,
+    "unresolved_m2": 72867,
+    "physically_or_material_unresolved_m2": 25418,
+    "model_vegetation_pct_of_total": 16.17212816042707,
+    "unresolved_pct": 14.353928434240462,
+    "binary_0_5_vegetation_pct_of_observable": 21.342230941029847,
+    "ortho_visual_review": "completed; full image viewed",
+    "status": "multisource screening; unresolved cells retained"
+  },
+  {
+    "panel": 12,
+    "bbox_epsg3826": [
+      311000,
+      2771510,
+      312000,
+      2772190
+    ],
+    "study_area_m2": 506456,
+    "model_vegetation_m2": 89854,
+    "model_nonvegetation_m2": 308748,
+    "unresolved_m2": 107854,
+    "physically_or_material_unresolved_m2": 62250,
+    "model_vegetation_pct_of_total": 17.741718925237336,
+    "unresolved_pct": 21.295828265436683,
+    "binary_0_5_vegetation_pct_of_observable": 24.833298064411558,
+    "ortho_visual_review": "completed; full image viewed",
+    "status": "multisource screening; unresolved cells retained"
+  },
+  {
+    "panel": 13,
+    "bbox_epsg3826": [
+      312000,
+      2771670,
+      313000,
+      2772210
+    ],
+    "study_area_m2": 103067,
+    "model_vegetation_m2": 4984,
+    "model_nonvegetation_m2": 89414,
+    "unresolved_m2": 8669,
+    "physically_or_material_unresolved_m2": 3827,
+    "model_vegetation_pct_of_total": 4.835689405920421,
+    "unresolved_pct": 8.411033599503236,
+    "binary_0_5_vegetation_pct_of_observable": 6.8631600161225315,
+    "ortho_visual_review": "completed; full image viewed",
+    "status": "multisource screening; unresolved cells retained"
+  }
+]

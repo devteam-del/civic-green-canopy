@@ -3,42 +3,42 @@
   "crs": "EPSG:3826",
   "resampling": "nearest; 1m target grid, not increased source detail",
   "source_pixel_mercator_m": 1.1943285669558463,
-  "axis_length_m": 11788.784228527564,
-  "vector_area_m2": 5876785.18828833,
-  "pixel_area_m2": 5876797,
-  "valid_m2": 5876797,
+  "axis_length_m": 10311.672838512168,
+  "vector_area_m2": 5977775.104897028,
+  "pixel_area_m2": 5977767,
+  "valid_m2": 5977767,
   "unknown_m2": 0,
   "source_road_count": 94,
   "missing_axis_samples": 0,
-  "max_road_intersection_spread_m": 228.3658476397395,
+  "max_road_intersection_spread_m": 66.25915955007076,
   "thresholds": {
     "1": {
       "definition": "height >= 1 m",
-      "area_m2": 699966,
-      "percent_of_aoi": 11.910671748573245,
-      "percent_of_valid": 11.910671748573245
+      "area_m2": 707064,
+      "percent_of_aoi": 11.82822950442866,
+      "percent_of_valid": 11.82822950442866
     },
     "2": {
       "definition": "height >= 2 m",
-      "area_m2": 603435,
-      "percent_of_aoi": 10.26809331681867,
-      "percent_of_valid": 10.26809331681867
+      "area_m2": 609522,
+      "percent_of_aoi": 10.196483068008504,
+      "percent_of_valid": 10.196483068008504
     },
     "5": {
       "definition": "height >= 5 m",
-      "area_m2": 417414,
-      "percent_of_aoi": 7.102746615205528,
-      "percent_of_valid": 7.102746615205528
+      "area_m2": 421319,
+      "percent_of_aoi": 7.0481000681358115,
+      "percent_of_valid": 7.0481000681358115
     }
   },
   "imagery_date_intersections": [
     {
       "date": "2018-03-23",
-      "intersection_m2": 5638406.669757523
+      "intersection_m2": 5741889.327490747
     },
     {
       "date": "2018-08-07",
-      "intersection_m2": 238378.51853083225
+      "intersection_m2": 235885.77740629332
     }
   ]
 }

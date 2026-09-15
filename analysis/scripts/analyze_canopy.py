@@ -9,7 +9,8 @@ from rasterio.features import rasterize
 from rasterio.warp import reproject, Resampling
 from rasterio.transform import from_origin
 from shapely.geometry import LineString, mapping, shape, box
-from shapely.ops import transform, unary_union
+from shapely.ops import transform, unary_union, linemerge
+from shapely.geometry import Point
 from pyproj import Transformer
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -27,7 +28,6 @@ for w in data['elements']:
         clipped=line.intersection(box(-1e7,-1e7,surface_west,1e7))
         if not clipped.is_empty: western.append(clipped)
 roads=unary_union(lines)
-roads=unary_union([roads,*western])
 x0,y0,x1,y1=roads.bounds
 # Approximate the boulevard axis with the midpoint of outer carriageway
 # intersections at 20 m eastings. This remains a REVIEW boundary, not survey data.
@@ -41,11 +41,31 @@ for x in xs:
         coords.append((float(x),float((min(ys)+max(ys))/2)))
         spreads.append(max(ys)-min(ys))
     else: missing.append(float(x))
+# The first cross-section can intersect just one carriageway. Continue the
+# next 100 m tangent to that station rather than introducing an artificial kink.
+if len(coords)>6:
+    slope=(coords[6][1]-coords[1][1])/(coords[6][0]-coords[1][0])
+    coords[0]=(coords[0][0],coords[1][1]+slope*(coords[0][0]-coords[1][0]))
 axis=LineString(coords).simplify(3)
-aoi=axis.buffer(250,cap_style=2)
+links=[]
+for g in western:
+    ls=list(g.geoms) if hasattr(g,'geoms') else [g]
+    for l in ls:
+        for end in [l.coords[0],l.coords[-1]]:
+            if abs(end[0]-surface_west)<.01:links.append(LineString([end,coords[0]]))
+network=unary_union([axis,*western,*links])
+chains=linemerge(network)
+aoi=chains.buffer(250,cap_style=2)
+# Round joins at branching stations, while preserving flat caps only at
+# true corridor terminals; separate OSM way caps must not make phantom gaps.
+from collections import Counter
+degree=Counter()
+for l in network.geoms:
+    degree[tuple(l.coords[0])]+=1;degree[tuple(l.coords[-1])]+=1
+aoi=unary_union([aoi,*[Point(p).buffer(250) for p,d in degree.items() if d>=3]])
 def save_geo(name,features):
     (ROOT/name).write_text(json.dumps({'type':'FeatureCollection','features':features},ensure_ascii=False))
-save_geo('study-boundary-review.geojson',[{'type':'Feature','properties':{'status':'approximate; needs endpoint and route review','buffer_m':250,'cap':'flat'},'geometry':mapping(transform(rev,aoi))},{'type':'Feature','properties':{'role':'approximate centerline'},'geometry':mapping(transform(rev,axis))}])
+save_geo('study-boundary-review.geojson',[{'type':'Feature','properties':{'status':'OSM based approximate surface axis; actual western branch lines retained','buffer_m':250,'cap':'flat','west_method':'union of 250m buffers along separately mapped expressway branches; no averaging across loops'},'geometry':mapping(transform(rev,aoi))},{'type':'Feature','properties':{'role':'approximate surface centerline'},'geometry':mapping(transform(rev,axis))},*[{'type':'Feature','properties':{'role':'western expressway branch'},'geometry':mapping(transform(rev,l))} for l in western]])
 save_geo('source-road-alignment.geojson',[{'type':'Feature','properties':{'osm_id':w['id'],'name':w['tags']['name']},'geometry':mapping(transform(rev,l))} for w,l in zip(ways,lines)])
 left,bottom,right,top=aoi.bounds
 left,bottom=np.floor([left,bottom]);right,top=np.ceil([right,top])

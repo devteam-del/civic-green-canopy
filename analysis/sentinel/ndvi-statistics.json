@@ -1,0 +1,37 @@
+{
+  "scene_id": "S2B_51RUH_20260603_0_L2A",
+  "date": "2026-06-03T02:40:46.437000Z",
+  "native_pixel_m": 10,
+  "scl_resolution_m": 20,
+  "scale_offset": "scale 0.0001; earthsearch:boa_offset_applied=true, so no second -0.1 offset",
+  "metric": "share of 10m pixel centres within AOI with NDVI above threshold; NOT fractional green cover",
+  "aoi_pixel_count": 59765,
+  "valid_pixel_count": 59542,
+  "unknown_pixel_count": 223,
+  "thresholds": {
+    "0.2": {
+      "pixel_count": 19403,
+      "nominal_area_m2": 1940300,
+      "percent_of_aoi_pixels": 32.46548983518782,
+      "percent_of_valid_pixels": 32.587081387927846
+    },
+    "0.3": {
+      "pixel_count": 13036,
+      "nominal_area_m2": 1303600,
+      "percent_of_aoi_pixels": 21.812097381410524,
+      "percent_of_valid_pixels": 21.893789258002755
+    },
+    "0.4": {
+      "pixel_count": 9303,
+      "nominal_area_m2": 930300,
+      "percent_of_aoi_pixels": 15.56596670291977,
+      "percent_of_valid_pixels": 15.62426522454738
+    },
+    "0.5": {
+      "pixel_count": 6464,
+      "nominal_area_m2": 646400,
+      "percent_of_aoi_pixels": 10.815694804651551,
+      "percent_of_valid_pixels": 10.856202344563501
+    }
+  }
+}

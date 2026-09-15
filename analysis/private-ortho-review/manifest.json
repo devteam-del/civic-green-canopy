@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "file": "01.png",
+    "bbox_epsg3826": [
+      300000,
+      2770940,
+      301000,
+      2771760
+    ],
+    "width": 1000,
+    "height": 820,
+    "requested_pixel_m": 1,
+    "edition": 2025,
+    "capture_date": "not provided by service",
+    "url": "https://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2025/MapServer/export?bbox=300000,2770940,301000,2771760&bboxSR=3826&imageSR=3826&size=1000,820&format=png32&transparent=true&layers=show:0&f=image"
+  },
+  {
+    "id": 2,
+    "file": "02.png",
+    "bbox_epsg3826": [
+      301000,
+      2770950,
+      302000,
+      2771770
+    ],
+    "width": 1000,
+    "height": 820,
+    "requested_pixel_m": 1,
+    "edition": 2025,
+    "capture_date": "not provided by service",
+    "url": "https://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2025/MapServer/export?bbox=301000,2770950,302000,2771770&bboxSR=3826&imageSR=3826&size=1000,820&format=png32&transparent=true&layers=show:0&f=image"
+  },
+  {
+    "id": 3,
+    "file": "03.png",
+    "bbox_epsg3826": [
+      302000,
+      2770890,
+      303000,
+      2771570
+    ],
+    "width": 1000,
+    "height": 680,
+    "requested_pixel_m": 1,
+    "edition": 2025,
+    "capture_date": "not provided by service",
+    "url": "https://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2025/MapServer/export?bbox=302000,2770890,303000,2771570&bboxSR=3826&imageSR=3826&size=1000,680&format=png32&transparent=true&layers=show:0&f=image"
+  },
+  {
+    "id": 4,
+    "file": "04.png",
+    "bbox_epsg3826": [
+      303000,
+      2770600,
+      304000,
+      2771420
+    ],
+    "width": 1000,
+    "height": 820,
+    "requested_pixel_m": 1,
+    "edition": 2025,
+    "capture_date": "not provided by service",
+    "url": "https://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2025/MapServer/export?bbox=303000,2770600,304000,2771420&bboxSR=3826&imageSR=3826&size=1000,820&format=png32&transparent=true&layers=show:0&f=image"
+  },
+  {
+    "id": 5,
+    "file": "05.png",
+    "bbox_epsg3826": [
+      304000,
+      2770570,
+      305000,
+      2771130
+    ],
+    "width": 1000,
+    "height": 560,
+    "requested_pixel_m": 1,
+    "edition": 2025,
+    "capture_date": "not provided by service",
+    "url": "https://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2025/MapServer/export?bbox=304000,2770570,305000,2771130&bboxSR=3826&imageSR=3826&size=1000,560&format=png32&transparent=true&layers=show:0&f=image"
+  },
+  {
+    "id": 6,
+    "file": "06.png",
+    "bbox_epsg3826": [
+      305000,
+      2770550,
+      306000,
+      2771140
+    ],
+    "width": 1000,
+    "height": 590,
+    "requested_pixel_m": 1,
+    "edition": 2025,
+    "capture_date": "not provided by service",
+    "url": "https://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2025/MapServer/export?bbox=305000,2770550,306000,2771140&bboxSR=3826&imageSR=3826&size=1000,590&format=png32&transparent=true&layers=show:0&f=image"
+  },
+  {
+    "id": 7,
+    "file": "07.png",
+    "bbox_epsg3826": [
+      306000,
+      2770570,
+      307000,
+      2771480
+    ],
+    "width": 1000,
+    "height": 910,
+    "requested_pixel_m": 1,
+    "edition": 2025,
+    "capture_date": "not provided by service",
+    "url": "https://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2025/MapServer/export?bbox=306000,2770570,307000,2771480&bboxSR=3826&imageSR=3826&size=1000,910&format=png32&transparent=true&layers=show:0&f=image"
+  },
+  {
+    "id": 8,
+    "file": "08.png",
+    "bbox_epsg3826": [
+      307000,
+      2770940,
+      308000,
+      2771620
+    ],
+    "width": 1000,
+    "height": 680,
+    "requested_pixel_m": 1,
+    "edition": 2025,
+    "capture_date": "not provided by service",
+    "url": "https://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2025/MapServer/export?bbox=307000,2770940,308000,2771620&bboxSR=3826&imageSR=3826&size=1000,680&format=png32&transparent=true&layers=show:0&f=image"
+  },
+  {
+    "id": 9,
+    "file": "09.png",
+    "bbox_epsg3826": [
+      308000,
+      2771100,
+      309000,
+      2771680
+    ],
+    "width": 1000,
+    "height": 580,
+    "requested_pixel_m": 1,
+    "edition": 2025,
+    "capture_date": "not provided by service",
+    "url": "https://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2025/MapServer/export?bbox=308000,2771100,309000,2771680&bboxSR=3826&imageSR=3826&size=1000,580&format=png32&transparent=true&layers=show:0&f=image"
+  },
+  {
+    "id": 10,
+    "file": "10.png",
+    "bbox_epsg3826": [
+      309000,
+      2771160,
+      310000,
+      2771850
+    ],
+    "width": 1000,
+    "height": 690,
+    "requested_pixel_m": 1,
+    "edition": 2025,
+    "capture_date": "not provided by service",
+    "url": "https://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2025/MapServer/export?bbox=309000,2771160,310000,2771850&bboxSR=3826&imageSR=3826&size=1000,690&format=png32&transparent=true&layers=show:0&f=image"
+  },
+  {
+    "id": 11,
+    "file": "11.png",
+    "bbox_epsg3826": [
+      310000,
+      2771340,
+      311000,
+      2772030
+    ],
+    "width": 1000,
+    "height": 690,
+    "requested_pixel_m": 1,
+    "edition": 2025,
+    "capture_date": "not provided by service",
+    "url": "https://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2025/MapServer/export?bbox=310000,2771340,311000,2772030&bboxSR=3826&imageSR=3826&size=1000,690&format=png32&transparent=true&layers=show:0&f=image"
+  },
+  {
+    "id": 12,
+    "file": "12.png",
+    "bbox_epsg3826": [
+      311000,
+      2771510,
+      312000,
+      2772190
+    ],
+    "width": 1000,
+    "height": 680,
+    "requested_pixel_m": 1,
+    "edition": 2025,
+    "capture_date": "not provided by service",
+    "url": "https://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2025/MapServer/export?bbox=311000,2771510,312000,2772190&bboxSR=3826&imageSR=3826&size=1000,680&format=png32&transparent=true&layers=show:0&f=image"
+  },
+  {
+    "id": 13,
+    "file": "13.png",
+    "bbox_epsg3826": [
+      312000,
+      2771670,
+      313000,
+      2772210
+    ],
+    "width": 1000,
+    "height": 540,
+    "requested_pixel_m": 1,
+    "edition": 2025,
+    "capture_date": "not provided by service",
+    "url": "https://www.historygis.udd.gov.taipei/arcgis/rest/services/Aerial/Ortho_2025/MapServer/export?bbox=312000,2771670,313000,2772210&bboxSR=3826&imageSR=3826&size=1000,540&format=png32&transparent=true&layers=show:0&f=image"
+  }
+]
