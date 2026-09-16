@@ -13,11 +13,13 @@
     "elevated infrastructure occlusion",
     "dated orthophoto"
   ],
-  "status": "full-corridor remote-sensing screening completed; not complete field verification or definitive total green-cover rate",
+  "status": "whole-block boundary and vector export complete; expanded vegetation area not classified",
   "restrictions": [
     "park boundary is not vegetation cover",
     "do not double count overlapping canopy and ground cover",
     "unknown coverage beneath elevated infrastructure is not zero"
   ],
-  "final_summary": "full-line-results/summary.json"
+  "final_summary": "full-line-results/summary.json",
+  "boundary_selection": "250 m buffer plus entire intersected OSM surface-road enclosed blocks",
+  "active_boundary": "whole-block-results/study-boundary.geojson"
 }

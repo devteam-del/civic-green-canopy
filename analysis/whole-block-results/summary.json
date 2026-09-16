@@ -1,0 +1,13 @@
+{
+  "selected_block_count": 932,
+  "old_area_m2": 5977775.104896387,
+  "new_area_m2": 7396469.72053965,
+  "added_unclassified_m2": 1418694.6156433185,
+  "rule": "retain all complete OSM road-enclosed polygons intersecting 250m AOI by >0.001m² (numerical tolerance); union original buffer to retain roads",
+  "minimum_overlap_m2": 0.001,
+  "limitations": [
+    "OSM road-centreline block approximation, not cadastral or surveyed curb boundary",
+    "missing road geometry cannot be artificially closed",
+    "expanded area not classified; old 10.36% must not be reused for this new extent"
+  ]
+}

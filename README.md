@@ -1,5 +1,7 @@
-# 市民大道全線綠覆分析
+# 市民大道綠覆分析
 
-[全線分析與圖面](analysis/FULL_CORRIDOR_ANALYSIS.md)
+[目前版本：250 m 選取完整街廓與向量圖](analysis/whole-block-results/README.md)
 
-市民大道全段兩側各 250 m。全線多源影像篩查完成，保留待核實範圍；不宣稱現地全面查核或精確現況總綠覆率。
+[前版：固定 250 m 範圍影像判讀](analysis/FULL_CORRIDOR_ANALYSIS.md)
+
+新邊界新增範圍尚未分類，不能沿用前版綠覆率。
